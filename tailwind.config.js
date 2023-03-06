@@ -1,4 +1,3 @@
-tailwind.config.js
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -6,7 +5,17 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'whale-blue': '#012d3f',
+        'purple': '#520a26',
+        'egyptian-blue': '#27359c',
+        'white': '#ffffff'
+      },
+      backgroundImage: {
+        'hero': "url('./assets/images/hero-bg.png')"
+      }
+    },
   },
   plugins: [],
 }
