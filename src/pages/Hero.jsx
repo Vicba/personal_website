@@ -5,11 +5,10 @@ import Profile_image from './../components/Profile_image'
 
 export default function hero() {
     return (
-        <section id="hero" className='h-[80vh] w-screen bg-hero text-white flex gap-x-20 items-center justify-center'>
+        <section id="hero" className='md:h-[90vh] w-full bg-hero bg-no-repeat bg-cover bg-center bg-fixed text-white flex items-center justify-center py-28 md:my-0'>
 
-
-            <div className="flex flex-col-reverse items-center md:flex-row">
-                <div className="flex flex-col mb-32 space-y-12 md:w-1/2">
+            <div className="flex flex-col-reverse items-center space-y-25 md:flex-row md:space-x-60 md:space-y-0">
+                <div className="flex flex-col space-y-12 md:w-1/2">
                     <h1 className="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
                         Hello, I'm Victor
                     </h1>
@@ -17,7 +16,7 @@ export default function hero() {
                         I'm a college student passionate about software technology.
                     </p>
                     <div className="flex justify-center md:justify-start">
-                        <a href="#" className="pt-2 text-white rounded-full">View more  --<i className="fa-solid fa-arrow-right"></i></a>
+                        <a href="#projects" className="pt-2 text-white rounded-full font-bold">View more   --<i className="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
 
