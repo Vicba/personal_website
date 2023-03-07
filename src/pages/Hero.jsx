@@ -23,7 +23,7 @@ export default function hero() {
                     </div>
                 </div>
 
-                <div className="image">
+                <div className="image flex items-center justify-center mb-5">
                     <Profile_image />
                 </div>
             </div>
