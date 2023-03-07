@@ -15,7 +15,7 @@ module.exports = {
         'white': '#ffffff'
       },
       backgroundImage: {
-        'hero': "url('./assets/images/bg.png')"
+        'hero': "url('./assets/images/bg.png')",
       }
     },
   },
