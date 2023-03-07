@@ -8,7 +8,7 @@ export default function projects() {
                 <p className='text-xl mx-3 md:text-2xl py-6 text-gray-500'>Click one to visit.</p>
             </div>
 
-            <div className="flex flex-col md:flex-row items-center md:space-x-60 md:space-y-0 md:my-12">
+            <div className="flex flex-col xl:flex-row items-center md:space-x-60 md:space-y-0 md:my-12">
                 <div className='border py-8 mx-3 rounded-xl shadow-xl' >
                     <p className='text-6xl font-bold text-indigo-600'>100%</p>
                     <p className='text-gray-400 mt-2'>Completion</p>
