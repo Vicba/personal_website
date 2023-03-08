@@ -20,7 +20,7 @@ export default function hero() {
                         Hello, I'm Victor
                     </h1>
                     <p className="max-w-sm text-center text-darkGrayishBlue md:text-left">
-                        I'm a college student passionate about software technology.
+                        I'm a college student passionate about designing and developing software.
                     </p>
                     <div className="flex justify-center md:justify-start">
                         <a href="#projects" className="pt-2 text-white rounded-full font-bold hover:underline">View more <FontAwesomeIcon icon={faLongArrowAltRight} className='ml-2 hover:translate-x-2 hover:ease-in duration-150' />
